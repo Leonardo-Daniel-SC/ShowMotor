@@ -5,6 +5,10 @@ Landing page desenvolvida para uma loja de motos elétricas chamada **ShowMotor*
 O projeto foi criado com foco em praticar desenvolvimento Front-end utilizando HTML, CSS e JavaScript, explorando conceitos de responsividade, manipulação do DOM e design moderno.
 
 ---
+## 🌐 Site
+Projeto publicado no GitHub Pages:
+👉 [https://leonardo-daniel-sc.github.io/ShowMotor/](https://leonardo-daniel-sc.github.io/ShowMotor/)
+---
 
 ## 🚀 Tecnologias utilizadas
 
@@ -66,4 +70,4 @@ CP3/
 Ou utilize a extensão:
 
 * Live Server
-
+  
