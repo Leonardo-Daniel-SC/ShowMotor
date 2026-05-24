@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family-Orbitron:wght@416&family-Poppins&display-swap" rel="stylesheet">
+    <title>Carrinho - ShowMotor</title>
+    <link rel="stylesheet" href="../src/css/loja.css">
+</head>
+<body class="corpo-loja">
+    <header>
+        <a href="../index.html" class="logo">ShowMotor<span>s</span></a>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="sobre.html">Sobre nós</a>
+        </nav>
+    </header>
+    <section class="carrinho-container">
+        <div class="carrinho-card">
+            <a href="../index.html" class="btn-voltar" title="Voltar para a home"&lt;></a>
+            <h1>Resumo do carrinho</h1>
+            <div id="lista-carrinho-itens" class="itens-lista"></div>
+            <hr class="divisor">
+            <div class="total-secao">
+                <h2>Total da Compra</h2>
+                <p id="valor-total-exibicao"><span id="total-compra">0,00</span></p>
+            </div>
+            <div class="botoes-container">
+                <button id="btn-desconto" class="btn-rosa">Aplicar desconto (10%)</button>
+                <button onclick="finalizarCompra()" class="btn-verde">Finalizar compra</button>
+            </div>
+        </div>
+    </section>
+    <script src="../src/js/script.js" defer></script>
+</body>
+</html>
