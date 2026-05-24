@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;400;500;600&display=swap');
+:root {
+  --bg-dark: #0a0a0f;
+  --bg-card: #111118;
+  --accent: #00e5ff;
+  --accent2: #ff2d6f;
+  --accent-glow: rgba(0, 229, 255, 0.25);
+  --text: #e8eaf0;
+  --text-muted: #7a7d94;
+  --border: rgba(0, 229, 255, 0.15);
+  --header-h: 70px;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: var(--bg-dark);
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--header-h);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background: rgba(10, 10, 15, 0.85);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border);
+  z-index: 100;
+}
+.logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--text);
+  text-decoration: none;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.logo span { color: var(--accent); text-shadow: 0 0 12px var(--accent); }
+nav { display: flex; gap: 2rem; }
+nav a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.2s;
+  position: relative;
+}
+nav a::after {
+  content: '';
+  position: absolute;
+  bottom: -4px; left: 0; right: 0;
+  height: 1px;
+  background: var(--accent);
+  transform: scaleX(0);
+  transition: transform 0.2s;
+}
+nav a:hover { color: var(--accent); }
+nav a:hover::after { transform: scaleX(1); }
+/* ── SOBRE SECTION ── */
+.sobre {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+  padding-top: var(--header-h);
+  position: relative;
+  overflow: hidden;
+}
+.sobre::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 50% 70% at 80% 30%, rgba(0,229,255,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 10% 70%, rgba(255,45,111,0.05) 0%, transparent 60%);
+}
+.sobre::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,229,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,229,255,0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
+}
+.sobre-text {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  text-align: center;
+}
+.sobre-text h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 800;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.6rem;
+  color: var(--text);
+}
+.sobre-text h1::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
+  margin: 0.8rem auto 0;
+}
+.sobre-text p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.9;
+  margin-top: 2rem;
+  border-left: 2px solid var(--accent);
+  padding-left: 1.5rem;
+  text-align: left;
+}
+/* ── CARDS DA EQUIPE ── */
+.sobre-cards {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.sobre-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  min-width: 180px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.sobre-card:hover {
+  border-color: rgba(0,229,255,0.4);
+  transform: translateY(-4px);
+}
+.sobre-card .icon {
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+.sobre-card h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.85rem;
+  color: var(--accent);
+  letter-spacing: 1px;
+  margin-bottom: 0.3rem;
+}
+.sobre-card p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border: none;
+  padding: 0;
+  text-align: center;
+  line-height: 1.4;
+}
