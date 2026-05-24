@@ -7,7 +7,8 @@ O projeto foi criado com foco em praticar desenvolvimento Front-end utilizando H
 ---
 ## 🌐 Site
 Projeto publicado no GitHub Pages:
-👉 [https://leonardo-daniel-sc.github.io/ShowMotor/](https://leonardo-daniel-sc.github.io/ShowMotor/)
+
+👉 [https:/ShowMotor.com](https://leonardo-daniel-sc.github.io/ShowMotor/)
 ---
 
 ## 🚀 Tecnologias utilizadas
