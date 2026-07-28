@@ -18,12 +18,12 @@
 ## 📌 Links
 
 * **Repositório:** [https://github.com/Leonardo-Daniel-SC/ShowMotor](https://github.com/Leonardo-Daniel-SC/ShowMotor)
-* **Projeto Online:** [https://leonardo-daniel-sc.github.io/ShowMotor/](https://leonardo-daniel-sc.github.io/ShowMotor)
+* **Projeto Online:** [https://leonardo-daniel-sc.github.io/ShowMotor](https://leonardo-daniel-sc.github.io/ShowMotor)
 ---
 
 ## 📖 Sobre o projeto
 
-O **ShowMotor** é uma aplicação web desenvolvida para apresentar um catálogo de motos elétricas modernas, oferecendo uma experiência intuitiva para explorar modelos e conhecer seus detalhes.
+O **ShowMotor** é uma página web desenvolvida para apresentar um catálogo de motos elétricas modernas, oferecendo uma experiência intuitiva para explorar modelos e conhecer seus detalhes.
 
 O projeto foi criado com o objetivo de praticar conceitos de desenvolvimento Front-end, como manipulação do DOM, renderização dinâmica de conteúdo, organização de componentes e criação de interfaces responsivas utilizando HTML, CSS e JavaScript.
 
