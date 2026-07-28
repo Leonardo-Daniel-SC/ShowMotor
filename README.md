@@ -5,12 +5,12 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
 <p align="center">
-  <img src="./src/img/showmotor-1.png" width="800">
+  <img src="./src/img/showMotor(1).png" width="800">
 </p>
 
 <p align="center">
-  <img src="./src/img/showmotor-2.png" width="390">
-  <img src="./src/img/showmotor-3.png" width="390">
+  <img src="./src/img/showMotor(2).png" width="390">
+  <img src="./src/img/showMotor(3).png" width="390">
 </p>
 
 ---
