@@ -1,17 +1,47 @@
-# ⚡ ShowMotor
+# 🏍️ ShowMotor
 
-Landing page desenvolvida para uma loja de motos elétricas chamada **ShowMotor**.
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge\&logo=html5\&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge\&logo=css3\&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge\&logo=javascript\&logoColor=black)
 
-O projeto foi criado com foco em praticar desenvolvimento Front-end utilizando HTML, CSS e JavaScript, explorando conceitos de responsividade, manipulação do DOM e design moderno.
+<p align="center">
+  <img src="./src/img/showmotor-1.png" width="800">
+</p>
+
+<p align="center">
+  <img src="./src/img/showmotor-2.png" width="390">
+  <img src="./src/img/showmotor-3.png" width="390">
+</p>
 
 ---
-## 🌐 Site
-Projeto publicado no GitHub Pages:
 
-👉 [https:/ShowMotor.com](https://leonardo-daniel-sc.github.io/ShowMotor/index.html#home)
+## 📌 Links
+
+* **Repositório:** [https://github.com/Leonardo-Daniel-SC/ShowMotor](https://github.com/Leonardo-Daniel-SC/ShowMotor)
+* **Projeto Online:** [https://leonardo-daniel-sc.github.io/ShowMotor/](https://leonardo-daniel-sc.github.io/ShowMotor)
 ---
 
-## 🚀 Tecnologias utilizadas
+## 📖 Sobre o projeto
+
+O **ShowMotor** é uma aplicação web desenvolvida para apresentar um catálogo de motos elétricas modernas, oferecendo uma experiência intuitiva para explorar modelos e conhecer seus detalhes.
+
+O projeto foi criado com o objetivo de praticar conceitos de desenvolvimento Front-end, como manipulação do DOM, renderização dinâmica de conteúdo, organização de componentes e criação de interfaces responsivas utilizando HTML, CSS e JavaScript.
+
+---
+
+## ✨ Funcionalidades
+
+* 🏍️ Exibição de um catálogo de motos elétricas.
+* 📋 Renderização dinâmica dos produtos com JavaScript.
+* 🔎 Navegação entre as seções da página.
+* 🛒 Acesso à página do carrinho.
+* ℹ️ Página "Sobre nós".
+* 📱 Interface responsiva.
+* 🎨 Design moderno com foco na experiência do usuário.
+
+---
+
+## 🛠️ Tecnologias utilizadas
 
 * HTML5
 * CSS3
@@ -19,56 +49,85 @@ Projeto publicado no GitHub Pages:
 
 ---
 
-## 🎨 Funcionalidades
+## 📂 Estrutura do projeto
 
-* Navegação entre páginas
-* Catálogo de motos
-* Cards dinâmicos gerados com JavaScript
-* Layout responsivo
-* Sessão “Sobre Nós”
-* Design moderno e futurista
-* Interface voltada para mobilidade elétrica
-
----
-
-## 📁 Estrutura do projeto
-
-```bash
-CP3/
+```text
+📁 showmotor
 │
-├── README.md
 ├── index.html
+├── README.md
+│
 ├── pages/
-│   ├── loja.html
-│   └── sobre.html
+│   ├── sobre.html
+│   └── loja.html
 │
 ├── src/
-│   ├── assets/
-│   │   ├── Shineray She-S.jpg
-│   │   ├── Super Soco TC.jpg
-│   │   ├── Super Soco TC Max.jpg
-│   │   ├── Voltz EVS.jpg
-│   │   └── Watts 125.jpg
-│   │
 │   ├── css/
-│   │   ├── style.css
-│   │   ├── loja.css
-│   │   └── sobre.css
-│   │
-│   └── js/
-│       └── script.js
+│   │   └── style.css
+│   ├── js/
+│   │   └── script.js
+│   └── img/
+│       ├── showmotor-1.png
+│       ├── showmotor-2.png
+│       └── showmotor-3.png
 ```
 
 ---
 
-## ▶️ Como executar o projeto
+## ▶️ Como executar
 
-1. Faça o download do projeto
-2. Extraia os arquivos
-3. Abra a pasta no VS Code
-4. Execute o arquivo `index.html`
+1. Clone este repositório:
 
-Ou utilize a extensão:
+```bash
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+```
 
-* Live Server
-  
+2. Entre na pasta do projeto:
+
+```bash
+cd nome-do-repositorio
+```
+
+3. Abra o arquivo **index.html** em seu navegador.
+
+Ou utilize a extensão **Live Server** do Visual Studio Code.
+
+---
+
+## 💡 Como utilizar
+
+1. Acesse a página inicial.
+2. Navegue até a seção **Catálogo**.
+3. Explore os modelos de motos elétricas disponíveis.
+4. Consulte a página **Sobre nós** para conhecer a proposta da empresa.
+5. Acesse a área do **Carrinho** para continuar a experiência de compra.
+
+---
+
+## 📚 Conceitos praticados
+
+Durante o desenvolvimento deste projeto foram aplicados conceitos como:
+
+* Estruturação semântica com HTML5
+* Estilização responsiva com CSS3
+* Manipulação do DOM
+* Renderização dinâmica de elementos
+* Organização de arquivos em módulos
+* Navegação entre páginas
+* Eventos em JavaScript
+* Boas práticas de desenvolvimento Front-end
+
+---
+
+## 🚀 Melhorias futuras
+
+* 🔍 Pesquisa de motos por nome.
+* 🏷️ Filtros por categoria, autonomia e preço.
+* ❤️ Lista de favoritos.
+* 🛒 Carrinho de compras funcional.
+* 💳 Simulação de checkout.
+* 🌙 Tema escuro.
+* 🔗 Integração com uma API para carregamento dos produtos.
+* 📱 Melhor experiência em dispositivos móveis.
+
+---
